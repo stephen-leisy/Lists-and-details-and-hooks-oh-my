@@ -12,6 +12,10 @@ function Character({ image, name, species }) {
   );
 }
 
-Character.propTypes = {};
+Character.propTypes = {
+  name: PropTypes.string.isRequired,
+  species: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+};
 
 export default Character;

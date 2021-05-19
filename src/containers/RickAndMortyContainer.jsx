@@ -10,24 +10,24 @@ export default function RickAndMortyContainer() {
 
   useEffect(() => {
     getCharacters(pages)
-      .then((characters) => setCharacters(characters))
+      .then(setCharacters)
       .finally(() => setLoading(false));
   }, [pages]);
 
-  const handleForwardClick = () => setPages((pages) => pages + 1);
-  const handleBackwardClick = () => {
-    if (pages !== 1) {
-      setPages((pages) => pages - 1);
+  const handleClick = ({ target }) => {
+    if (target.value === 'backward' && pages !== 1) {
+      setPages(() => pages - 1);
+    } else if (target.value === 'backward' && pages === 1) {
+      setPages(pages);
+    } else {
+      setPages(() => pages + 1);
     }
   };
 
   if (loading) return <h2>Loading...</h2>;
   return (
     <>
-      <PageButtons
-        backwardClick={handleBackwardClick}
-        forwardClick={handleForwardClick}
-      />
+      <PageButtons onClick={handleClick} />
       <CharacterList characters={characters} />;
     </>
   );
