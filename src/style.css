@@ -56,6 +56,10 @@ button {
 button:hover {
   color: black;
   background-color: chartreuse;
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.9);
 }
 figcaption {
   font-family: 'Creepster', cursive;
