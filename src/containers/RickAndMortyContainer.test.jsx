@@ -4,6 +4,7 @@ import { rest } from 'msw';
 import { setupServer } from 'msw/node';
 import RickAndMortyContainer from './RickAndMortyContainer';
 import mockData from '../../fixtures/test.json';
+import { MemoryRouter } from 'react-router';
 
 const server = setupServer(
   rest.get('https://rickandmortyapi.com/api/character', (req, res, ctx) => {
@@ -15,7 +16,11 @@ describe('tests for rick n morty api', () => {
   beforeAll(() => server.listen());
   afterAll(() => server.close());
   it('returns characters to the screen on load', async () => {
-    render(<RickAndMortyContainer />);
+    render(
+      <MemoryRouter>
+        <RickAndMortyContainer />
+      </MemoryRouter>
+    );
     screen.getByText('Loading...');
 
     const ul = await screen.findByRole('list', { name: 'characters' });

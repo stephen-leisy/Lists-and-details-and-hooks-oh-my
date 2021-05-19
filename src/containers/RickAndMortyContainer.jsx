@@ -28,7 +28,6 @@ export default function RickAndMortyContainer() {
   if (loading) return <h2>Loading...</h2>;
   return (
     <main>
-      <Header />
       <PageButtons onClick={handleClick} />
       <CharacterList characters={characters} />;
     </main>
