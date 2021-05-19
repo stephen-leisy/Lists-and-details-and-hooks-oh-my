@@ -1,0 +1,348 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests for rick n morty api returns characters to the screen on load 1`] = `
+<ul
+  aria-label="characters"
+>
+  <a
+    href="/1"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Rick Sanchez"
+          src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+        />
+        <figcaption>
+          Rick Sanchez
+          : 
+          Human
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    href="/2"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Morty Smith"
+          src="https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+        />
+        <figcaption>
+          Morty Smith
+          : 
+          Human
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    href="/3"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Summer Smith"
+          src="https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+        />
+        <figcaption>
+          Summer Smith
+          : 
+          Human
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    href="/4"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Beth Smith"
+          src="https://rickandmortyapi.com/api/character/avatar/4.jpeg"
+        />
+        <figcaption>
+          Beth Smith
+          : 
+          Human
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    href="/5"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Jerry Smith"
+          src="https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+        />
+        <figcaption>
+          Jerry Smith
+          : 
+          Human
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    href="/6"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Abadango Cluster Princess"
+          src="https://rickandmortyapi.com/api/character/avatar/6.jpeg"
+        />
+        <figcaption>
+          Abadango Cluster Princess
+          : 
+          Alien
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    href="/7"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Abradolf Lincler"
+          src="https://rickandmortyapi.com/api/character/avatar/7.jpeg"
+        />
+        <figcaption>
+          Abradolf Lincler
+          : 
+          Human
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    href="/8"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Adjudicator Rick"
+          src="https://rickandmortyapi.com/api/character/avatar/8.jpeg"
+        />
+        <figcaption>
+          Adjudicator Rick
+          : 
+          Human
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    href="/9"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Agency Director"
+          src="https://rickandmortyapi.com/api/character/avatar/9.jpeg"
+        />
+        <figcaption>
+          Agency Director
+          : 
+          Human
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    href="/10"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Alan Rails"
+          src="https://rickandmortyapi.com/api/character/avatar/10.jpeg"
+        />
+        <figcaption>
+          Alan Rails
+          : 
+          Human
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    href="/11"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Albert Einstein"
+          src="https://rickandmortyapi.com/api/character/avatar/11.jpeg"
+        />
+        <figcaption>
+          Albert Einstein
+          : 
+          Human
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    href="/12"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Alexander"
+          src="https://rickandmortyapi.com/api/character/avatar/12.jpeg"
+        />
+        <figcaption>
+          Alexander
+          : 
+          Human
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    href="/13"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Alien Googah"
+          src="https://rickandmortyapi.com/api/character/avatar/13.jpeg"
+        />
+        <figcaption>
+          Alien Googah
+          : 
+          Alien
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    href="/14"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Alien Morty"
+          src="https://rickandmortyapi.com/api/character/avatar/14.jpeg"
+        />
+        <figcaption>
+          Alien Morty
+          : 
+          Alien
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    href="/15"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Alien Rick"
+          src="https://rickandmortyapi.com/api/character/avatar/15.jpeg"
+        />
+        <figcaption>
+          Alien Rick
+          : 
+          Alien
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    href="/16"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Amish Cyborg"
+          src="https://rickandmortyapi.com/api/character/avatar/16.jpeg"
+        />
+        <figcaption>
+          Amish Cyborg
+          : 
+          Alien
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    href="/17"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Annie"
+          src="https://rickandmortyapi.com/api/character/avatar/17.jpeg"
+        />
+        <figcaption>
+          Annie
+          : 
+          Human
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    href="/18"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Antenna Morty"
+          src="https://rickandmortyapi.com/api/character/avatar/18.jpeg"
+        />
+        <figcaption>
+          Antenna Morty
+          : 
+          Human
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    href="/19"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Antenna Rick"
+          src="https://rickandmortyapi.com/api/character/avatar/19.jpeg"
+        />
+        <figcaption>
+          Antenna Rick
+          : 
+          Human
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+  <a
+    href="/20"
+  >
+    <li>
+      <figure>
+        <img
+          alt="Ants in my Eyes Johnson"
+          src="https://rickandmortyapi.com/api/character/avatar/20.jpeg"
+        />
+        <figcaption>
+          Ants in my Eyes Johnson
+          : 
+          Human
+        </figcaption>
+      </figure>
+    </li>
+  </a>
+</ul>
+`;
