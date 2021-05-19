@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Fascinate+Inline&display=swap');
+
+body {
+  background-color: cornsilk;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+
+li {
+  /* border: 1px solid black; */
+  border-radius: 15px;
+  margin: 5px;
+  /* background-color: rgb(35, 173, 35); */
+  /* box-shadow: 5px 5px lightgray; */
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+img {
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 5px 5px purple;
+}
+
+button {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #000000;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.25em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #000000;
+  text-align: center;
+  transition: all 0.5s;
+  box-shadow: 5px 5px purple;
+}
+button:hover {
+  color: black;
+  background-color: chartreuse;
+}
+figcaption {
+  font-family: 'Creepster', cursive;
+  font-size: 1.5em;
+  color: rgb(98, 198, 245);
+  -webkit-text-stroke: 1px black;
+  text-shadow: 1px 1px chartreuse;
+  word-wrap: break-word;
+}
+

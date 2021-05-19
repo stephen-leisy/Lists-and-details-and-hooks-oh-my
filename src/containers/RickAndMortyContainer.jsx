@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import CharacterList from '../components/characters/CharacterList';
 import PageButtons from '../components/pagination/PageButtons';
+import Header from '../components/header/Header';
 import { getCharacters } from '../services/ApiCall';
 
 export default function RickAndMortyContainer() {
@@ -26,9 +27,10 @@ export default function RickAndMortyContainer() {
 
   if (loading) return <h2>Loading...</h2>;
   return (
-    <>
+    <main>
+      <Header />
       <PageButtons onClick={handleClick} />
       <CharacterList characters={characters} />;
-    </>
+    </main>
   );
 }
